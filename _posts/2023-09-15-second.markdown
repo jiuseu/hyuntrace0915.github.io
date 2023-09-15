@@ -29,7 +29,7 @@ chirpy 설치 방법은 여러가지가 있다.
 chirpy 테마 설치
 -------------
 [chirpy](http://github.com/cotes2020/jekyll-theme-chirpy)에 들어가서 zip를 내려 받는다.
-![img](https://github.com/jiuseu/hyuntrace0915.github.io/tree/main/img/chirpy_do.PNG)
+![img](https://github.com/jiuseu/hyuntrace0915.github.io/tree/main/_posts/img/chirpy_do.PNG)
 
 Repository 사용
 -------------
@@ -85,13 +85,13 @@ push를 하고 github.io들어가면 적용이 되었어야 했으나....
 
 로컬에서 확인했던 깔끔한 블로그가 아니라 위의 코드 한줄 띡 하나만 나를 반겨주었다.
 그래서 또 검색을 하여 찾아본 결과, github 설정에서 pages 탭에 source를 'GitHub Actions'로 바꿔야한다.  
-![img](https://github.com/jiuseu/hyuntrace0915.github.io/tree/main/img/github_pages_setting.PNG)
+![img](https://github.com/jiuseu/hyuntrace0915.github.io/tree/main/_posts/img/github_pages_setting.PNG)
 그러면 깃허브에서 'jekyll.yml'를 설정할 거냐고 물어보는데 당연히 커밋하고 push를 했으나 이또한 빌드가 실패하게 된다.
-![img](https://github.com/jiuseu/hyuntrace0915.github.io/tree/main/img/jekyll_yml_fail.PNG)
+![img](https://github.com/jiuseu/hyuntrace0915.github.io/tree/main/_posts/img/jekyll_yml_fail.PNG)
 그래서 깃허브 빌드 로그를 살펴본 결과 '_config.yml'파일이 인코딩이 잘못되어 저장이 된 것 같았다.
 ![img](https://github.com/jiuseu/hyuntrace0915.github.io/img/buildfailcase.PNG)
 그래서 로컬에 있는 파일 인코딩 UTF-8에서 UTF-8(BOM)으로 저장하여 push한 결과 제대로 해결되었다.
-![img](https://github.com/jiuseu/hyuntrace0915.github.io/tree/main/img/sucesss.PNG)
+![img](https://github.com/jiuseu/hyuntrace0915.github.io/tree/main/_posts/img/sucesss.PNG)
 
 
 
