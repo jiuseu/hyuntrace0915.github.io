@@ -1,4 +1,4 @@
-# The Site Configuration
+ï»¿# The Site Configuration
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -16,14 +16,14 @@ lang: ko
 timezone: Asia/Seoul
 
 # jekyll-seo-tag settings ??? https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ?†“ --------------------------
+# ?ë„ƒ --------------------------
 
-title: ºñÀü°ø °³¹ßÀÚ°¡ µÇ°í ½ÍÀº »ç¶÷ÀÇ ÀÏÁö # the main title
+title: ë¹„ì „ê³µ ê°œë°œìê°€ ë˜ê³  ì‹¶ì€ ì‚¬ëŒì˜ ì¼ì§€ # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  ºñÀü°øÀÚ ¿¹ºñ °³¹ßÀÚÀÇ ÈçÀûµé
+  ë¹„ì „ê³µì ì˜ˆë¹„ ê°œë°œìì˜ í”ì ë“¤
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://jiuseu.github.io/hyuntrace0915.github.io/"
@@ -49,7 +49,7 @@ social:
 
 google_site_verification: # fill in to your verification string
 
-# ?†‘ --------------------------
+# ?ë„ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
