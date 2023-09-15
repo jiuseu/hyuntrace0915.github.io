@@ -85,13 +85,22 @@ push를 하고 github.io들어가면 적용이 되었어야 했으나....
 
 로컬에서 확인했던 깔끔한 블로그가 아니라 위의 코드 한줄 띡 하나만 나를 반겨주었다.
 그래서 또 검색을 하여 찾아본 결과, github 설정에서 pages 탭에 source를 'GitHub Actions'로 바꿔야한다.  
-![img](img/github_pages_setting.PNG)
+
+![github_pages_setting](https://github.com/jiuseu/hyuntrace0915.github.io/assets/109057859/082fa4e3-4fb4-4bf0-aef1-4f9234a83407)
+
+
 그러면 깃허브에서 'jekyll.yml'를 설정할 거냐고 물어보는데 당연히 커밋하고 push를 했으나 이또한 빌드가 실패하게 된다.
-![img](img/jekyll_yml_fail.PNG)
+
+![jekyll_yml_fail](https://github.com/jiuseu/hyuntrace0915.github.io/assets/109057859/a85e6aba-568e-4ce7-a44e-4ab91f1bc403)
+
+
 그래서 깃허브 빌드 로그를 살펴본 결과 '_config.yml'파일이 인코딩이 잘못되어 저장이 된 것 같았다.
-![img](img/buildfailcase.PNG)
+
+![buildfailcase](https://github.com/jiuseu/hyuntrace0915.github.io/assets/109057859/867fca02-899e-4455-819d-41b28c3ecfee)
+
 그래서 로컬에 있는 파일 인코딩 UTF-8에서 UTF-8(BOM)으로 저장하여 push한 결과 제대로 해결되었다.
-![img](img/sucesss.PNG)
+![sucesss](https://github.com/jiuseu/hyuntrace0915.github.io/assets/109057859/d4e29237-ed1e-47c0-b681-a7df4181f9ad)
+
 
 
 
