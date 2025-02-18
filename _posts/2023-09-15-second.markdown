@@ -28,7 +28,7 @@ chirpy 설치 방법은 여러가지가 있다.
 
 chirpy 테마 설치
 -------------
-[chirpy](http://github.com/cotes2020/jekyll-theme-chirpy)에 들어가서 zip를 내려 받는다.
+[chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)에 들어가서 zip를 내려 받는다.
 ![chirpy_do](https://github.com/jiuseu/hyuntrace0915.github.io/assets/109057859/f346f45d-c293-43f5-8d6e-96cddd9a7f1a)
 
 Repository 사용
